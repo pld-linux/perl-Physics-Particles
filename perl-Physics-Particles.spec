@@ -8,13 +8,13 @@
 Summary:	Physics::Particles - Simulate particle dynamics
 Summary(pl.UTF-8):	Physics::Particles - symulacha dynamiki cząstek
 Name:		perl-Physics-Particles
-Version:	1.01
-Release:	0.1
+Version:	1.02
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Physics/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	466a845ca2efe0ffdbffa6673d2c3322
+# Source0-md5:	c282ca4bc5f3ea4d36a0ddc421cd386f
 URL:		http://search.cpan.org/dist/Physics-Particles/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
