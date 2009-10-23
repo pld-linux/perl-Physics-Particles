@@ -9,7 +9,7 @@ Summary:	Physics::Particles - Simulate particle dynamics
 Summary(pl.UTF-8):	Physics::Particles - symulacha dynamiki cząstek
 Name:		perl-Physics-Particles
 Version:	1.02
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -90,6 +90,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/Physics
 %{perl_vendorlib}/Physics/*.pm
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
