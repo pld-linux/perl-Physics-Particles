@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Physics
 %define	pnam	Particles
 Summary:	Physics::Particles - Simulate particle dynamics
